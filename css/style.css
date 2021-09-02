@@ -1,0 +1,363 @@
+* {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 600;
+    margin: 0 0 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+/* --- nav bar --- */
+
+.logo {
+    color: #ff305b !important;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.active {
+    color: #ff305b !important;
+}
+
+.navBarListItem li a:hover {
+    color: #ff305b !important;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+
+/* ---/nav bar --- */
+
+
+/* ---- Header ---- */
+
+header {
+    background-image: url(../images/slider/slider-01.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.sub-header {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.caption-center h1 {
+    color: #ff305b;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.caption-center h4 {
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+
+/* ---- /Header ---- */
+
+
+/* -------about section -------- */
+
+.about-section {
+    position: relative;
+    overflow: hidden;
+}
+
+.about-photo {
+    border-radius: 7px;
+    position: relative;
+    z-index: 2;
+}
+
+.about-section::after {
+    content: "";
+    border: solid 8px #555555;
+    border-radius: 7px;
+    height: 440px;
+    width: 360px;
+    position: absolute;
+    top: 18px;
+    left: -1px;
+}
+
+.hover-icons {
+    width: 77%;
+    height: 89%;
+    position: absolute;
+    top: 100%;
+    left: 39px;
+    border-radius: 7px;
+    z-index: 3;
+    transition: all 1s;
+    background-color: #2f2c2c;
+    opacity: 0.9;
+}
+
+.left-section:hover .hover-icons {
+    top: 49px;
+}
+
+.about-heading {
+    border-left: solid #ff305b 4px;
+    padding-left: 10px;
+}
+
+.about-text {
+    border-bottom: #999999 dashed 1px;
+    color: #555555;
+    padding-bottom: 15px;
+}
+
+.about-btn button {
+    background-color: #ff305b;
+    margin-right: 10px;
+    padding: 10px 24px;
+}
+
+.about-btn button:hover {
+    background-color: #EC2403;
+}
+
+
+/* --------- /about section --------- */
+
+
+/* ------------service section---------- */
+
+.wide-services {
+    background-color: #f1f1f1;
+}
+
+.wide-services h2 {
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 30px;
+}
+
+.service-section i {
+    color: #ff305b;
+    font-size: 30px;
+    padding-bottom: 10p;
+}
+
+.inner :hover i {
+    font-size: 36px;
+    transition: 0.5s all;
+}
+
+.service-section:hover {
+    background: #ffffff none repeat scroll 0 0;
+    -webkit-box-shadow: 0 15px 20px rgb(0 0 0 / 10%);
+    box-shadow: 0 15px 20px rgb(0 0 0 / 10%);
+    transition: all 0.3s ease-in-out 0s;
+    border-radius: 3px;
+}
+
+.service-section {
+    padding: 40px 15px;
+}
+
+
+/* ------------service section---------- */
+
+
+/* ----------Portofolio Section--------- */
+
+.portfolio-section h2 {
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 30px;
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+}
+
+.links a {
+    text-decoration: none;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding: 3px 12px;
+}
+
+.portfolio-img img {
+    cursor: pointer;
+    width: 360px;
+}
+
+.sub-portfolio {
+    position: relative;
+    margin-top: 40px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 12px;
+    right: 0;
+    /* height: 100%; */
+    width: 360px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #2f2c2c;
+}
+
+.text {
+    color: #ff305b;
+    font-size: 19px;
+    padding: 10px;
+}
+
+.sub-portfolio:hover .overlay {
+    opacity: 0.5;
+}
+
+
+/* -----------/Portofolio Section--------- */
+
+
+/* ----------counter----------- */
+
+.wide-portfolio {
+    background-color: #f1f1f1;
+}
+
+.wide-portfolio h2 {
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 30px;
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+}
+
+.inner-portfolio i {
+    color: #ff305b;
+    font-size: 26px;
+    margin-bottom: 15p;
+}
+
+.portfolio-section h3 {
+    font-size: 26px;
+    font-weight: 800;
+}
+
+.portfolio-section h5 {
+    color: #555555;
+    font-size: 16px;
+}
+
+
+/* ----------/counter----------- */
+
+
+/* ----------slider section ------- */
+
+.slider-section h2 {
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 30px;
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+}
+
+.slider-btn {
+    height: 30px !important;
+    margin-top: 20px;
+}
+
+
+/* ------------slider section --------- */
+
+
+/* ------------card section ---------- */
+
+.wide-card {
+    background-color: #f1f1f1;
+}
+
+.wide-card h2 {
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 30px;
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+}
+
+.card {
+    padding: 0px !important;
+    margin: 14px !important;
+}
+
+.card-body a {
+    text-decoration: none;
+    color: #333333;
+    font-size: 16px;
+}
+
+.card-body a:hover {
+    color: #ff305b;
+    transition: all 0.3s ease-in-out;
+}
+
+.card-body i:hover {
+    color: #ff305b;
+    transition: all 0.3s ease-in-out;
+}
+
+.card-title:hover {
+    color: #ff305b;
+    transition: all 0.3s ease-in-out;
+}
+
+iframe {
+    height: 196.578px;
+}
+
+
+/* ------------/card section ---------- */
+
+
+/* ------------- */
+
+
+/* -------------Footer ---------------- */
+
+footer {
+    background-color: #333333;
+}
+
+.footer-section a {
+    list-style: none;
+    color: #fff;
+}
+
+.footer-section a {
+    list-style: none;
+    color: #fff;
+    padding: 0px 10px;
+}
+
+.footer-section a:hover {
+    list-style: none;
+    color: #ff305b;
+}
+
+.footer-text {
+    color: #fff;
+}
+
+.footer-text span {
+    color: #ff305b;
+}
+
+
+/* -------------Footer ---------------- */
